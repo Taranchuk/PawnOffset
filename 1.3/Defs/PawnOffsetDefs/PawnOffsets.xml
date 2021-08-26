@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnOffset.PawnOffsetDef>
+    <defName>PO_HumanlikesOnAnySittable</defName>
+	<anyHumanlikes>true</anyHumanlikes>
+	<onAnySittable>true</onAnySittable>
+	<drawOffsetWest>(-0.14, 0, 0.36)</drawOffsetWest>
+	<drawOffsetEast>(0.2, 0, 0.43)</drawOffsetEast>
+	<drawOffsetSouth>(0, 0, 0.36)</drawOffsetSouth>
+	<drawOffsetNorth>(0, -3.21, 0.2)</drawOffsetNorth>
+  </PawnOffset.PawnOffsetDef>
+
+  <PawnOffset.PawnOffsetDef>
+    <defName>PO_HumanlikesOnDiningChair</defName>
+	<anyHumanlikes>true</anyHumanlikes>
+	<things>
+		<li>DiningChair</li>
+	</things>
+	<drawOffsetWest>(-0.14, 0, 0.36)</drawOffsetWest>
+	<drawOffsetEast>(0.2, 0, 0.43)</drawOffsetEast>
+	<drawOffsetSouth>(0, 0, 0.36)</drawOffsetSouth>
+	<drawOffsetNorth>(0, -3.21, 0.2)</drawOffsetNorth>
+  </PawnOffset.PawnOffsetDef>
+</Defs>
